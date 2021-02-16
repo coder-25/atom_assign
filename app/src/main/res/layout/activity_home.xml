@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home"
+    >
+
+    <ImageView
+        android:id="@+id/welcome"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@drawable/welcome"/>
+
+    <FrameLayout
+        android:layout_below="@+id/welcome"
+        android:layout_width="match_parent"
+        android:layout_height="800dp"
+        android:background="#0288D1">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="80sp"
+            android:text=" Lets make healthy habits possible !!!!"
+            android:layout_below="@+id/welcome"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textSize="30sp"
+            android:textColor="#E1F5FE"
+            android:textAlignment="center"/>
+        <Button
+            android:id="@+id/bttnLog"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="300dp"
+            android:layout_marginRight="50dp"
+            android:text="LOG OUT"
+            android:textColor="#ffffff"
+            android:background="#00B8D4"
+            android:textSize="25sp"/>
+
+    </FrameLayout>
+
+
+</RelativeLayout>
