@@ -34,7 +34,7 @@ class logIn : AppCompatActivity() {
                     else{
                         Toast.makeText(
                             this@logIn,
-                            "An unexpected error occurred(intent id is null )",
+                            "Please try again",
                             Toast.LENGTH_SHORT
                         ).show()
                     }

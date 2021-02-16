@@ -33,7 +33,7 @@ class Register : AppCompatActivity() {
                     else{
                         Toast.makeText(
                             this@Register,
-                            "An unexpected error occurred(intent id is null )",
+                            "Please try agian",
                             Toast.LENGTH_SHORT
                         ).show()
                     }
